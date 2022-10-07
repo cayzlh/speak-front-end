@@ -1,7 +1,7 @@
 <template>
   <div class="speak-footer">
-    Powered by <a :href="homepage" target="_blank">iSpeak</a> v{{ version }}
-    <SpeakLogin :visitorId="prosp.visitorId" v-if="userConfig.githubClientId" />
+<!--    Powered by <a :href="homepage" target="_blank">iSpeak</a> v{{ version }}
+    <SpeakLogin :visitorId="prosp.visitorId" v-if="userConfig.githubClientId" />-->
   </div>
 </template>
 
