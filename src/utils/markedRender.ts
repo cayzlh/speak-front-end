@@ -7,7 +7,7 @@ export const markedRender = (body, loading_img) => {
       /*return `<a href="${href}" target="_blank" data-fancybox="group" class="fancybox">
            <img speak-src="${href}" src=${loading_img} alt='${text}'>
           </a>`*/
-      return `<img speak-src="${href}" src=${loading_img} alt='${text}'>`
+      return `<img class="fancybox" speak-src="${href}" src=${loading_img} alt='${text}'>`
     }
   }
   marked.setOptions({
