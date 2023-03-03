@@ -16,7 +16,7 @@
         />
       </transition-group>
       <card-loading v-show="loading"></card-loading>
-      <div class="controller">
+<!--      <div class="controller">
         {{ message }}
         <button
           class="next-btn"
@@ -25,7 +25,7 @@
         >
           下一页
         </button>
-      </div>
+      </div>-->
     </div>
   </div>
 </template>
