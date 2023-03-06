@@ -28,7 +28,7 @@ const loading = ref(false)
 /**
  * 下一页btn是否可以点击
  */
-const btnClickFlag = ref(true)
+const btnClickFlag = ref(false)
 /**
  * 获取speak时的请求参数
  */
